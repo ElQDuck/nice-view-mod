@@ -10,4 +10,4 @@ extern const lv_img_dsc_t bongocatfast2;
 extern const lv_img_dsc_t balloon;
 extern const lv_img_dsc_t jelllyfish;
 extern const lv_img_dsc_t seahorse;
-extern const lv_img_dsc_t Hauswappen;
+extern const lv_img_dsc_t housecoatofarms;
