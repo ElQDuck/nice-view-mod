@@ -23,16 +23,16 @@ manifest:
     # zmk official
     - name: zmkfirmware
       url-base: https://github.com/zmkfirmware
-    - name: dsifry #new entry
-      url-base: https://github.com/dsifry #new entry
+    - name: ElQDuck #new entry
+      url-base: https://github.com/ElQDuck #new entry
   projects:
     - name: zmk
       remote: zmkfirmware
       revision: main
       import: app/west.yml
     - name: nice-view-mod #new entry
-      remote: dsifry #new entry
-      revision: main #new entry
+      remote: ElQDuck #new entry
+      revision: house-coat-of-arms #new entry; the branch you want to use
   self:
     path: config
 ```
@@ -48,7 +48,7 @@ include:
     shield: urchin_right nice_view_adapter nice_view_custom #custom shield
 ```
 
-To disb;e the WPM display, set:
+To disable the WPM display, set:
 
 CONFIG_WPM_GRAPH_ENABLED=n
 
