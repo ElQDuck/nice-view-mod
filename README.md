@@ -28,11 +28,11 @@ manifest:
   projects:
     - name: zmk
       remote: zmkfirmware
-      revision: main
+      revision: v0.3 #these widgets use the LVGL 8 canvas API, removed in LVGL 9
       import: app/west.yml
     - name: nice-view-mod #new entry
       remote: ElQDuck #new entry
-      revision: house-coat-of-arms #new entry; the branch you want to use
+      revision: main #new entry
   self:
     path: config
 ```
